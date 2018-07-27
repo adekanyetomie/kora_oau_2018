@@ -1,0 +1,29 @@
+{
+  "name": "team_noname_fe",
+  "version": "0.0.1",
+  "engines": {
+    "node": "6.11.3",
+    "npm": "3.10.10"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "helmet": "^3.13.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.4",
+    "path": "^0.12.7"
+  },
+  "description": "Kora Hackathon FE",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "author": "Israel Arunah, Tomi Adekanye",
+  "license": "MIT"
+}
