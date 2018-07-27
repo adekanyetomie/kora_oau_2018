@@ -5,13 +5,12 @@ const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
+const hbs = require('hbs');
 
 require('dotenv').config();
 const app = express();
 
 app.use(helmet());
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 
 //Parsing the body on each request and giving access to data sent
@@ -22,12 +21,15 @@ app.use(cookieParser());
 app.use(cors());
 
 // view engine setup
-app.set("view options", {layout: false});
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'hbs');
+hbs.registerPartials(__dirname + '/views/partials');
+// app.set("view options", {layout: false});
 app.use(express.static(path.join(__dirname, '/public')));
 
 
 app.get('/', function (req, res) {
-    res.sendFile('index.html');
+    res.render('index');
 });
 
 // catch 404 and forward to error handler
@@ -47,5 +49,7 @@ app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.render('error');
 });
+
+console.log('App listening on ', process.env.PORT);
 
 module.exports = app;
