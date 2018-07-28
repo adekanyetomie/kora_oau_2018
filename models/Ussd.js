@@ -6,13 +6,13 @@ const POST = axios.post;
 const validatePhone = (phone) => {
     POST(VALIDATE_PHONE, phone)
         .then((response) => response)
-        .catch((err) => JSON.stringify(err));
+        .catch((err) => console.log(err));
 };
 
 const validatePin = (phone, pin) => {
     POST(VALIDATE_PIN, {phone, pin})
         .then((response) => response)
-        .catch((err) => JSON.stringify(err));
+        .catch((err) => console.log(err));
 };
 
 const transferToOtherCustomer = (sender_id, sender, recipient, amount, pin) => {
