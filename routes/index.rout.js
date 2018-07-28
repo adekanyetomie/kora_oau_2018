@@ -2,7 +2,7 @@ const router = require('express').Router();
 const {registerHandler, loginHandler, logoutHandler} = require('../controllers/index.ctrl');
 
 // Route to landing page
-router.get('/', res.send('Up'));
+router.get('/', (req, res) => {res.send('Up')});
 
 // Register user
 router.post('/register', registerHandler);
