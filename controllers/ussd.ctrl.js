@@ -113,7 +113,7 @@ const transferToBank = (res, text) => {
         transferToMyBank();
     }
     else if (text === '3*2') {
-        transferToOtherBank();
+        return endInteraction('Under construction')
     }
     else {
         return endInteraction(res, ResponseMessages.INVALID_ENTRY);
