@@ -6,12 +6,12 @@ const requestHandler = (req, res) => {
     let response;
     let {sessionId, serviceCode, phoneNumber, text} = req.body;
     text = text.toString();
-    const validatePhone = Ussd.validatePhone(phoneNumber);
-    if (!validatePhone.status) {
-        response = `${validatePhone.message}`;
-        return endInteraction(res, response);
-    }
-    const userData = validatePhone.data && validatePhone.data.length > 0 ? validatePhone.data : null;
+    // const validatePhone = Ussd.validatePhone(phoneNumber);
+    // if (!validatePhone.status) {
+    //     response = `${validatePhone.message}`;
+    //     return endInteraction(res, response);
+    // }
+    // const userData = validatePhone.data && validatePhone.data.length > 0 ? validatePhone.data : null;
 
     if (text = '') {
         response = `Welcome to Tranzact.
