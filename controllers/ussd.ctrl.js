@@ -63,13 +63,13 @@ const transferToOtherCustomer = (res, text, phone) => {
         return proceedInteraction(res, response);
     }
     else if (text.length === 13) {
-        recipientPhone = text.slice(3,);
+        recipientPhone = text.slice(3);
         forTransfer.push(recipientPhone);
         response = `Kindly enter amount. Maximum of #100,000:`;
         return proceedInteraction(res, response)
     }
-    else if (text.length > 14 && text.length <= 20 && text.slice(14,).indexOf('*') === -1) {
-        amount = text.slice(14,);
+    else if (text.length > 14 && text.length <= 20 && text.slice(14).indexOf('*') === -1) {
+        amount = text.slice(14);
         forTransfer.push(amount);
         response = `Kindly enter your pin:`;
         return proceedInteraction(res, response);
@@ -128,7 +128,7 @@ const transferToMyBank = (res, text) => {
         return proceedInteraction(res, response);
     }
     if (text.length > 4) {
-        amount = text.slice(4,);
+        amount = text.slice(4);
         forTransfer.push(amount);
         response = `Enter pin:`;
         return proceedInteraction(res, response);
