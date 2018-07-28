@@ -6,13 +6,13 @@ class About extends Component {
 			<section className="section-about">
 				<div className="u-center-text u-margin-bottom-big">
 					<h2 className="heading-secondary">
-						Exciting tours or advenurous people
+						Exciting Wallets For Exciting People
 					</h2>
 				</div>
 				<div className="row">
 					<div className="col-1-of-2">
 						<h3 className="heading-tertiary u-margin-bottom-small">
-							You're Going to fall in love with nature
+							You're Going to fall in love with our Wallets
 						</h3>
 						<p className="paragraph">
 							Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -21,7 +21,7 @@ class About extends Component {
 							type and scrambled it to make a type specimen book
 						</p>
 						<h3 className="heading-tertiary u-margin-bottom-small">
-							Live Adventures like you never have before
+							Wallets like you never seen before
 						</h3>
 						<p className="paragraph">
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -31,7 +31,7 @@ class About extends Component {
 							Learn More &rarr;
 						</a>
 					</div>
-					<div className="col-1-of-2">
+					{/* <div className="col-1-of-2">
 						<div className="composition">
 							<img
 								src="img/nat-1-large.jpg"
@@ -49,7 +49,7 @@ class About extends Component {
 								className="composition__photo composition__photo--p3"
 							/>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</section>
 		);

@@ -13,11 +13,19 @@ class Header extends Component {
 				</div>
 				<div className="header__text-box">
 					<h1 className="heading-primary">
-						<span className="heading-primary--main">Outdoors</span>
-						<span className="heading-primary--sub">Is where Life happens</span>
+						<span className="heading-primary--main">Tranzact</span>
+						<span className="heading-primary--sub">For The Best Wallet Experience</span>
 					</h1>
+					{/* <a href="#section-tours" className="btn btn--white btn--animated">
+						Discover Our Wallets
+					</a> <br/>
+					<br/> */}
+					
+					<a href="#section-tours" className="btn btn--white btn--animated" style={{'margin-right': '20px'}}>
+						Sign Up
+					</a>
 					<a href="#section-tours" className="btn btn--white btn--animated">
-						Discover Our Tours
+						Login
 					</a>
 				</div>
 			</header>

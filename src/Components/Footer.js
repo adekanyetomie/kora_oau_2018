@@ -4,9 +4,9 @@ class Footer extends Component {
     render() {
         return (
             <footer className="footer">
-                <div className="footer__logo-box">
+                {/* <div className="footer__logo-box">
                     <img src="img/logo-green-2x.png" alt="full logo" className="footer__logo" />
-                </div>
+                </div> */}
                 <div className="row">
                     <div className="col-1-of-2">
                         <div className="footer__navigation">
@@ -21,7 +21,7 @@ class Footer extends Component {
                     </div>
                     <div className="col-1-of-2">
                         <p className="footer__copyright">
-                            Built by <a href="#" className="footer__link">Akinde Emmanuel</a> on a online course <a href="#" className="footer__link">Advanced CSS and Sass</a> Copyright &copy; Jonas.io. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vel itaque, placeat obcaecati repudiandae eum fugiat autem quae vitae eius.
+                            Built By Team No Name For Kora Hachathon
                         </p>
                     </div>
                 </div>

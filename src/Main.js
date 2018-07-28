@@ -12,24 +12,25 @@ import Booking from "./Components/Booking";
 import Footer from "./Components/Footer";
 import Navigation from "./Components/Navigation";
 import Popup from "./Components/Popup";
-import Main from './Main'
-import {createStore, applyMiddleware} from 'redux';
-import {Provider}  from 'react-redux';
-import ReduxThunk from 'redux-thunk';
 
 
-const store = applyMiddleware(ReduxThunk)(createStore);
-class App extends Component {
+class Main extends Component {
 	render() {
 		return (
-			<Provider store={store}>
 			<div>
-				<Main/>
+				{/* <Navigation /> */}
+				<Header />
+				<About />
+				<Features />
+				<Tours />
+				<Stories />
+				<Booking />
+				<Footer />
+				<Popup />
 				{/* <GridTest /> */}
 			</div>
-			</Provider>
 		);
 	}
 }
 
-export default App;
+export default Main;

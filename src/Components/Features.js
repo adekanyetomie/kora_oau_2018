@@ -9,7 +9,7 @@ class Features extends Component {
 						<div className="feature-box">
 							<i className="feature-box__icon icon-basic-world" />
 							<h3 className="heading-tertiary u-margin-bottom-small">
-								Explore the World
+								Explore the Wallet World
 							</h3>
 							<p className="feature-box__text">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -22,7 +22,7 @@ class Features extends Component {
 						<div className="feature-box">
 							<i className="feature-box__icon icon-basic-compass" />
 							<h3 className="heading-tertiary u-margin-bottom-small">
-								Meet Nature
+								Save For The Future
 							</h3>
 							<p className="feature-box__text">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -35,7 +35,7 @@ class Features extends Component {
 						<div className="feature-box">
 							<i className="feature-box__icon icon-basic-map" />
 							<h3 className="heading-tertiary u-margin-bottom-small">
-								Find Your Way
+								Collaborate With Friends
 							</h3>
 							<p className="feature-box__text">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -48,7 +48,7 @@ class Features extends Component {
 						<div className="feature-box">
 							<i className="feature-box__icon icon-basic-heart" />
 							<h3 className="heading-tertiary u-margin-bottom-small">
-								Live A healthier life
+								Live A Credit Free life
 							</h3>
 							<p className="feature-box__text">
 								Lorem Ipsum is simply dummy text of the printing and typesetting

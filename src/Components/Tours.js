@@ -5,7 +5,7 @@ export default class Tours extends Component {
 		return (
 			<section className="section-tours" id="section-tours">
 				<div className="u-center-text u-margin-bottom-big">
-					<h2 className="heading-secondary">Most Popular Tours</h2>
+					<h2 className="heading-secondary">Most Popular Wallets</h2>
 				</div>
 
 				<div className="row">
@@ -15,20 +15,20 @@ export default class Tours extends Component {
 								<div className="card__picture card__picture--1">&nbsp;</div>
 								<h4 className="card__heading">
 									<span className="card__heading-span card__heading-span--1">
-										The Sea Explorer
+										Standard
 									</span>
 								</h4>
 								<div className="card__details">
 									<ul>
-										<li>3 day tour</li>
-										<li>Up to 30 People</li>
-										<li>2 tour Guides</li>
-										<li>Sleep cozy hotel</li>
-										<li>Difficulty: easy</li>
+										<li>Safe Keep Your Money</li>
+										<li>Pay to Others Using Tranzact</li>
+										<li>Make Withdrawals </li>
+										{/* <li>Sleep cozy hotel</li>
+										<li>Difficulty: easy</li> */}
 									</ul>
 								</div>
 							</div>
-							<div className="card__side card__side--back card__side--back-1">
+							{/* <div className="card__side card__side--back card__side--back-1">
 								<div className="card__cta">
 									<div className="card__price-box">
 										<p className="card__price-only">Only</p>
@@ -38,7 +38,7 @@ export default class Tours extends Component {
 										Book Now!
 									</a>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className="col-1-of-3">
@@ -47,20 +47,20 @@ export default class Tours extends Component {
 								<div className="card__picture card__picture--2">&nbsp;</div>
 								<h4 className="card__heading">
 									<span className="card__heading-span card__heading-span--2">
-										The Forest hiker
+										Kolo
 									</span>
 								</h4>
 								<div className="card__details">
 									<ul>
-										<li>7 day tour</li>
-										<li>Up to 40 People</li>
-										<li>6 tour Guides</li>
+										<li>Save Money for a Period of Time</li>
+										<li>Cash Out after after Duration ELapses</li>
+										{/* <li>6 tour Guides</li>
 										<li>Sleep in provided tents</li>
-										<li>Difficulty: medium</li>
+										<li>Difficulty: medium</li> */}
 									</ul>
 								</div>
 							</div>
-							<div className="card__side card__side--back card__side--back-2">
+							{/* <div className="card__side card__side--back card__side--back-2">
 								<div className="card__cta">
 									<div className="card__price-box">
 										<p className="card__price-only">Only</p>
@@ -70,7 +70,7 @@ export default class Tours extends Component {
 										Book Now!
 									</a>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className="col-1-of-3">
@@ -79,20 +79,20 @@ export default class Tours extends Component {
 								<div className="card__picture card__picture--3">&nbsp;</div>
 								<h4 className="card__heading">
 									<span className="card__heading-span card__heading-span--3">
-										The Snow Adventurer
+										Aajo
 									</span>
 								</h4>
 								<div className="card__details">
 									<ul>
-										<li>5 day tour</li>
-										<li>Up to 15 People</li>
-										<li>3 tour Guides</li>
+										<li>Invite Friends To Save</li>
+										<li>Save For a Common Interest</li>
+										{/* <li>3 tour Guides</li>
 										<li>Sleep in provided tents</li>
-										<li>Difficulty: hard</li>
+										<li>Difficulty: hard</li> */}
 									</ul>
 								</div>
 							</div>
-							<div className="card__side card__side--back card__side--back-3">
+							{/* <div className="card__side card__side--back card__side--back-3">
 								<div className="card__cta">
 									<div className="card__price-box">
 										<p className="card__price-only">Only</p>
@@ -102,16 +102,16 @@ export default class Tours extends Component {
 										Book Now!
 									</a>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>
 
-				<div className="u-center-text u-margin-top-huge">
+				{/* <div className="u-center-text u-margin-top-huge">
 					<a href="#" className="btn btn--green btn-green">
 						Discover all tours
 					</a>
-				</div>
+				</div> */}
 			</section>
 		);
 	}
