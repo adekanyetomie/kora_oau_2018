@@ -1,6 +1,5 @@
 const Ussd = require('../models/Ussd');
 const {proceedInteraction, endInteraction} = require('./base.ctrl');
-const Constants = require('../constants/constants');
 const ResponseMessages = require('../constants/responseMessages');
 
 const requestHandler = (req, res) => {
