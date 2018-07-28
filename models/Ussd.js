@@ -1,16 +1,15 @@
 const axios = require('axios');
 const {VALIDATE_PHONE, VALIDATE_PIN, TRANSFER_TO_OTHER_CUSTOMER} = require('../constants/ext_endpoints');
-const GET = axios.get;
 const POST = axios.post;
 
 const validatePhone = (phone) => {
-    POST(VALIDATE_PHONE, phone)
+    return POST(VALIDATE_PHONE, phone)
         .then((response) => response)
         .catch((err) => console.log('1', err));
 };
 
 const validatePin = (phone, pin) => {
-    POST(VALIDATE_PIN, {phone, pin})
+    return POST(VALIDATE_PIN, {phone, pin})
         .then((response) => response)
         .catch((err) => console.log('2', err));
 };
