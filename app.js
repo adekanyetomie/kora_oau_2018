@@ -10,6 +10,7 @@ const session = require('express-session');
 const flash = require('express-flash');
 
 const indexRouter = require('./routes/index.rout');
+const ussdRouter = require('./routes/ussd.rout');
 
 require('dotenv').config();
 const app = express();
@@ -42,6 +43,7 @@ hbs.registerPartials(__dirname + '/views/partials');
 app.use(express.static(path.join(__dirname, '/public')));
 //Routes
 app.use('/', indexRouter);
+app.use('/ussd/', ussdRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
